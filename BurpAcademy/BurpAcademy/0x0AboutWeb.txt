@@ -1,0 +1,85 @@
+#Browser 
+Browser is Complex and if we break the rule of html it will automatically  fix the problem without any complain to the user 
+
+#TCP
+TCP Detailed explaination (https://www.ietf.org/rfc/rfc793.txt)	
+  Control Bits:  6 bits (from left to right):
+
+    URG:  Urgent Pointer field significant
+    ACK:  Acknowledgment field significant
+    PSH:  Push Function
+    RST:  Reset the connection
+    SYN:  Synchronize sequence numbers
+    FIN:  No more data from sender
+
+
+#LoalHome
+127.0.0.1
+#CLI
+apt update && apt install php5-cli
+php -S 127.0.0.1:8080
+Open browser  and it will search for index.html and favicon.ico automatically 
+
+#Stauts code 
+200 means fine
+List of Html Staus
+
+#Packets 
+_____________
+  IP             ----> Which Computer?
+_____________
+TCP            ----> Which application wants this packets
+_____________
+HTML          ----> I use http to request that file
+____________
+
+#nc trick one
+nc 127.0.0.1 8080
+GET /index.html
+ENTER
+
+TO get response
+
+#nc trick 2
+
+Close php or any server
+setup a connection betwn browser and user
+nc -lvnp 8080
+
+now refresh browser without staring the server
+
+We can see the respond instead in the browser
+____________________________________________________________________________
+0x2
+#Web app Exploitaion
+
+#PHP Browser Chrome
+#Code
+   echo first name ". $_GET['first'] ." </br> last name ". $_GET['last']." 
+#Example of exploit
+   1:-*.php?first=<script>alert(1)</script> #Enter and no pop up due to chrome to see go to console using ctrl+shift+I dur to  xss Auditor
+#Bypass XSS Auditor of chrome
+   1:-if there is two field you can use *.php?first=<script>alert("&last=")</script>
+#Sources Ctrl+U  <script>alert("</br>")</script>  
+
+#prevention use 
+   htmlspecialchars() # comment for the protect from the xss but limited 
+#usages
+   in body #html comtext
+   in input #attrib context
+   in script #Script context
+#code for prevention
+   echo first name ". htmlspecialchars($_GET['first']) ." </br> last name ". htmlspecialchars($_GET['last']) ." 
+#What it does
+   it just convert < > sign to &gt and &lt
+
+________________________________________________________-
+0x3
+
+Source:-Liveroverflow
+
+LOG
+5 NOV
+11:04 pm  cam7/8 till 11:22 pm 
+6 NOV
+01:02 am CAM7/8 TILL 01:09 AM  Done

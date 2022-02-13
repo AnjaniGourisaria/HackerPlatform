@@ -1,0 +1,9 @@
+It is possible to disable or even change what hardware keys do even without an app.
+
+In my case I just commented out (added a # at beginning of) the lines starting with POWER in the /system/usr/keylayout/Generic.kl file
+
+(with root and rw access to /system . To access /system as rw just use this command: mount -o remount,rw /system)
+
+and rebooted the device. After this my physical power button doesn't work anymore. I tested this more by making my physical home button type the letter a in the same way.
+
+(You can get an idea what changes can be made by reading that file. MEDIA_PLAY , CAMERA , CALL , CONTACTS , BRIGTHESS and more are all there. I suppose that in the same way it is possible to change what virtual keys (like virtual keyboard keys) do).

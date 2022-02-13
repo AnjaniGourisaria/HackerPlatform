@@ -1,0 +1,83 @@
+POST /corp/AuthenticationController;jsessionid=0001qFnLgQAPCdas6qrKB9t6mcq:199jdq1ha?bwayparam=wbZlcJ89/t4zV2pNBcxTnmuXPkGHybknRFQ+6ZfCfsc= HTTP/1.1
+Host: sibernet.southindianbank.com
+Cookie: isTopbarhw=false; _ga=GA1.2.903379069.1635113653; _gid=GA1.2.294637976.1635113653; _gat_UA-92056145-3=1; TS01746fce=01f24afbe2a47169cd37df1eddc93edb89ff2fdf813e40df28465f56534330ea648af0f00c2654146392530480a84c010af890fe9a0c1354e3d0b550dba7989b3193b4c02d; SNKLSESS=KS3MpvfG85MW9UZIkbVlZHl8GckNUxb9; txtReSzTypehw=large
+Content-Length: 5982
+Sec-Ch-Ua: ";Not A Brand";v="99", "Chromium";v="94"
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36
+Sec-Ch-Ua-Platform: "Windows"
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Origin: https://sibernet.southindianbank.com
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://sibernet.southindianbank.com/corp/AuthenticationController?FORMSGROUP_ID__=AuthenticationFG&__START_TRAN_FLAG__=Y&FG_BUTTONS__=LOAD&ACTION.LOAD=Y&AuthenticationFG.LOGIN_FLAG=1&BANK_ID=059
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Connection: close
+
+rsa=&deviceprint=&AuthenticationFG.DEVICE_PRINT=version=3.4.2.0_1&pm_fpua=mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/94.0.4606.61 safari/537.36|5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36|Win32&pm_fpsc=24|1920|1080|1032&pm_fpsw=&pm_fptz=5.5&pm_fpln=lang=en-US|syslang=|userlang=&pm_fpjv=0&pm_fpco=1&pm_fpasw=internal-pdf-viewer|internal-pdf-viewer|internal-pdf-viewer|internal-pdf-viewer|internal-pdf-viewer&pm_fpan=Netscape&pm_fpacn=Mozilla&pm_fpol=true&pm_fposp=&pm_fpup=&pm_fpsaw=1920&pm_fpspd=24&pm_fpsbd=&pm_fpsdx=&pm_fpsdy=&pm_fpslx=&pm_fpsly=&pm_fpsfse=&pm_fpsui=&pm_os=Windows&pm_brmjv=94&pm_br=Chrome&pm_inpt=&pm_expt=&AuthenticationFG.ACCEPT_LANGUAGE=en-US,en;q=0.9&AuthenticationFG.ACCEPT_ENCODING=gzip, deflate&AuthenticationFG.ACCEPT_CHARSET=ISO-8859-1&AuthenticationFG.USERIP=49.37.41.200&AuthenticationFG.REFERER=https://www.southindianbank.com/&AuthenticationFG.ACCEPT=text/html,application/xhtml xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9&TranRequestManagerFG.REFERER=https://www.southindianbank.com/&CounterPartyCRUDFG.REFERER=https://www.southindianbank.com/&AccountNicknameMaintenanceFG.REFERER=https://www.southindianbank.com/&UpdateChannelUserIdFG.REFERER=https://www.southindianbank.com/&FileUploadCRUDFG.REFERER=https://www.southindianbank.com/&AuthenticationFG.USER_PRINCIPAL=33225577
+
+&dummy1=03c212e0e09d3a44e4e7b1d499be997dd31212d5a558db770f75bdd8fd6d2ea8cdaa5bee54836594c57ac763f405ee4cc05da5159bf0206256d1ce7bc9d355a1f8c3bb47126447ca89d2edfa509c3b69a09432e301941ae30a03683608199bcb1a09636278a5598c05d8868103d8f62939e3d91a550c0356bb0a4ca3edd97ca9
+
+&MIN_LENGTH_OF_PASSWORD=8&PWD_SPECIAL_CHAR_MANDATORY=N&PWDDIGITMAND=Y&PASSWORD_STRENGTH=Too short|Weak|Fair|Strong|Very Strong&IMAGE_PATH=L001/consumer/images
+
+
+&dummypwd1=80e96f45cc057456c59d2cafce9bbc2f65e4945f27984fec213b15bce8e460d4e250955c7fde33ebe11177e91ae61213cb04d4dabcdff05078af9b5ce7c42b901586bc6dc43769fe73cd835bc5b465be09f2c3fc3f5ab42f40d46a5b952f2996e20964730214bb8685b17e8c1c33426b2e21969c7226dae644718b8ab202a3c5
+
+&dummypwd2=2a95d3cf65736e4136fc2ac6410da0f3fe690600692a693f0378fa5b67e7443c553c2634a98711fbe9d6be881394b7d4cdc1001065d975085742e8fc306eaddee70750c73ca3b343aaa841b11b08f7d769bb3e4d6bcc13085f26c2bba159474854301cf5deaaafaec7de1921d8d44d42d1c1ff90eb0200aeaffd7d7394c66b12
+
+&AuthenticationFG.ACCESS_CODE=3eb99143b6dbaeb84a2fa3ad635db60481af5238e012c925073019a591591689b51f3f3a4ded08d86876da4d53b41e1a514711e4e1a9fdc0d06aacb1d9706d2086c8383bd36763f0e22cdddea56a34d6df481223337dbcb06878cf7e375e7021985cca805fd936ac0733feaf91e61effa96b4cb587e2ee1601c71c7300c64479
+
+&MIN_LENGTH_OF_PASSWORD=8&PWD_SPECIAL_CHAR_MANDATORY=N&PWDDIGITMAND=Y&PASSWORD_STRENGTH=&IMAGE_PATH=L001/consumer/images&
+
+dummy2=58f5d1a3e14053456a80ab7b298e08ba62a17b22c3c8f4c8c5325c07fc962cd2a5d85728de222b9518324862031af3dc7b7fd19e31ede41b1ed4e4a96d33f2a5ba21704dc7ebf311dd3d47ae1d590cd47404e4d3d09f710d66cb3c162a837ffd37c4acec8869d1b8a40d7ba508cb5458fbd8c3b03cd63f589614c90a240de6db
+
+&MIN_LENGTH_OF_PASSWORD=8&PWD_SPECIAL_CHAR_MANDATORY=N&PWDDIGITMAND=Y&PASSWORD_STRENGTH=Too short|Weak|Fair|Strong|Very Strong&IMAGE_PATH=L001/consumer/images&AuthenticationFG.VERIFICATION_CODE=58530&AuthenticationFG.MENU_ID=3&FG_BUTTONS__=VALIDATE_CREDENTIALS,STU_VALIDATE_CREDENTIALS,VALIDATE_CREDENTIALS_DIG_CERT,BACK,CLEAR_VALUES&AuthenticationFG.IS_FIRST_AUTHENTICATION=Y&QS=&CATEGORY_ID=&AuthenticationFG.PREFERRED_LANGUAGE=001&FORMSGROUP_ID__=AuthenticationFG&AuthenticationFG.REPORTTITLE=AuthenticationScreen&RIA_TARGETS=null&JS_ENABLED_FLAG=Y&CHECKBOX_NAMES__=&Requestid=1
+&__SIGNATURE__=&__JS_ENCRYPT_KEY__=10001,848890d47c8384abac6ca569eb6232af1efde82a0b17c21f0537cd6c98d104f6578d09dfdf21b94edea5b7b67c2baf1f7be389db7d5019114812f6b00508545a6e26125760d2ba55a7a020ea245180542a463d6f9c253e66b1abcc62435c0822f1f7c3daabdbdb683762a1e95282f755ff220a28d67bee8868976f9085ee481f,131
+
+&deviceDNA={"VERSION":"1.0","MFP":{"System":{"Platform":"Win32","Language":"en-US","Timezone":-330,"Fonts":""},"Screen":{"FullHeight":1080,"AvlHeight":1032,"FullWidth":1920,"AvlWidth":1920,"BufferDepth":"","ColorDepth":24,"PixelDepth":24,"DeviceXDPI":"","DeviceYDPI":"","FontSmoothing":"","UpdateInterval":""},"Browser":{"UserAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36","Vendor":"Google Inc.","VendorSubID":"","BuildID":"","CookieEnabled":true},"Camera":"","Microphone":""},"MAC":"","ExternalIP":"49.37.41.200","InternalIP":"","MESC":"mi=2;cd=200;id=50;mesc=343823;ldi=207;mesc=359569;ldi=210","DESC":""}&executionTime=1181&desc=&mesc=mi=2;cd=200;id=50;mesc=343823;ldi=207;mesc=359569;ldi=210&dnaError=&mescIterationCount=2&isDNADone=true&arcotFlashCookie=&DEVICE_ID=null&DEVICE_TYPE=DEVICEID.HTTP&MACHINE_FINGER_PRINT={"VERSION":"1.0","MFP":{"System":{"Platform":"Win32","Language":"en-US","Timezone":-330,"Fonts":""},"Screen":{"FullHeight":1080,"AvlHeight":1032,"FullWidth":1920,"AvlWidth":1920,"BufferDepth":"","ColorDepth":24,"PixelDepth":24,"DeviceXDPI":"","DeviceYDPI":"","FontSmoothing":"","UpdateInterval":""},"Browser":{"UserAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36","Vendor":"Google Inc.","VendorSubID":"","BuildID":"","CookieEnabled":true},"Camera":"","Microphone":""},"MAC":"","ExternalIP":"49.37.41.200","InternalIP":"","MESC":"mi=2;cd=200;id=50;mesc=343823;ldi=207;mesc=359569;ldi=210","DESC":""}&Action.VALIDATE_CREDENTIALS=Log In&SNKL_LOGIN_REQ=internal&SnklReqId=xNp1YQAAAAAA
+
+
+
+
+
+
+
+
+
+&dummy1=03c212e0e09d3a44e4e7b1d499be997dd31212d5a558db770f75bdd8fd6d2ea8cdaa5bee54836594c57ac763f405ee4cc05da5159bf0206256d1ce7bc9d355a1f8c3bb47126447ca89d2edfa509c3b69a09432e301941ae30a03683608199bcb1a09636278a5598c05d8868103d8f62939e3d91a550c0356bb0a4ca3edd97ca9
+
+
+&dummypwd1=80e96f45cc057456c59d2cafce9bbc2f65e4945f27984fec213b15bce8e460d4e250955c7fde33ebe11177e91ae61213cb04d4dabcdff05078af9b5ce7c42b901586bc6dc43769fe73cd835bc5b465be09f2c3fc3f5ab42f40d46a5b952f2996e20964730214bb8685b17e8c1c33426b2e21969c7226dae644718b8ab202a3c5
+
+&dummypwd2=2a95d3cf65736e4136fc2ac6410da0f3fe690600692a693f0378fa5b67e7443c553c2634a98711fbe9d6be881394b7d4cdc1001065d975085742e8fc306eaddee70750c73ca3b343aaa841b11b08f7d769bb3e4d6bcc13085f26c2bba159474854301cf5deaaafaec7de1921d8d44d42d1c1ff90eb0200aeaffd7d7394c66b12
+
+&AuthenticationFG.ACCESS_CODE=3eb99143b6dbaeb84a2fa3ad635db60481af5238e012c925073019a591591689b51f3f3a4ded08d86876da4d53b41e1a514711e4e1a9fdc0d06aacb1d9706d2086c8383bd36763f0e22cdddea56a34d6df481223337dbcb06878cf7e375e7021985cca805fd936ac0733feaf91e61effa96b4cb587e2ee1601c71c7300c64479
+
+&MIN_LENGTH_OF_PASSWORD=8&PWD_SPECIAL_CHAR_MANDATORY=N&PWDDIGITMAND=Y&PASSWORD_STRENGTH=&IMAGE_PATH=L001/consumer/images&
+
+dummy2=58f5d1a3e14053456a80ab7b298e08ba62a17b22c3c8f4c8c5325c07fc962cd2a5d85728de222b9518324862031af3dc7b7fd19e31ede41b1ed4e4a96d33f2a5ba21704dc7ebf311dd3d47ae1d590cd47404e4d3d09f710d66cb3c162a837ffd37c4acec8869d1b8a40d7ba508cb5458fbd8c3b03cd63f589614c90a240de6db
+
+
+&__SIGNATURE__=&__JS_ENCRYPT_KEY__=10001,848890d47c8384abac6ca569eb6232af1efde82a0b17c21f0537cd6c98d104f6578d09dfdf21b94edea5b7b67c2baf1f7be389db7d5019114812f6b00508545a6e26125760d2ba55a7a020ea245180542a463d6f9c253e66b1abcc62435c0822f1f7c3daabdbdb683762a1e95282f755ff220a28d67bee8868976f9085ee481f,131
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
