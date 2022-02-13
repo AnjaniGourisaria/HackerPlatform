@@ -1,0 +1,55 @@
+FIle name is Digistal Investigation
+
+ExifTool Version Number         : 12.16
+File Name                       : Digital_Investigation Task (pcap file).pcapng
+Directory                       : .
+File Size                       : 3.2 MiB
+File Modification Date/Time     : 2021:07:28 19:00:29+05:30
+File Access Date/Time           : 2021:07:28 19:07:06+05:30
+File Inode Change Date/Time     : 2021:07:28 19:06:42+05:30
+File Permissions                : rwxrwxrwx
+Error                           : Unknown file type
+
+And Sofware used
+wireshark
+hxd
+
+HXD address open" that file
+Intel i7-5700HQ cpu@2.70GHz (With SSE4.2) 64BITS WINDOW 8.1 build 9600  Wireshark 3.0.0.3
+MAILSLOT\BROWSE� WORKGROUP  
+Chrome 76.0.3809
+Running service     Apache Apache/2.4.6 (CentOS)
+
+There are two clients 
+Google Chrome/76.0.3809.100 Windows
+Chrome Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+
+Wireshark::::
+
+IPS
+IP
+Name
+169.254.236.248	MSI.local
+192.168.43.19	MSI.local
+192.168.56.1	MSI.local
+fe80::1cc9:787c:5387:552a	MSI.local
+fe80::c8a7:8723:814a:4d24	MSI.local
+fe80::e121:620b:c1c6:ecf8  MSI.local
+
+use filter and see the 
+evil.pdf
+GET /anz-png.png HTTP/1.1
+GET /atm-image.jpg HTTP/1.1
+GET /broken.png HTTP/1.1
+GET /anz-logo.jpg HTTP/1.1
+GET /how-to-commit-crimes.docx HTTP/1.1
+GET /ANZ_Document2.pdf HTTP/1.1
+GET /securepdf.pdf HTTP/1.1
+GET /ANZ2.jpg HTTP/1.1
+GET /ANZ_Document.pdf HTTP/1.1
+GET /bank-card.jpg HTTP/1.1
+GET /hiddenmessage2.txt HTTP/1.1
+GET /evil.pdf HTTP/1.1
+GET /ANZ1.jpg HTTP/1.1
+
+and more images
