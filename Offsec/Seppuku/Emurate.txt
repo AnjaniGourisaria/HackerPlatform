@@ -1,0 +1,107 @@
+kali@kali:~$ nmap -A -p- 192.168.54.90
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-08-09 12:43 EDT
+Nmap scan report for 192.168.54.90
+Host is up (0.00022s latency).
+Not shown: 65527 closed ports
+PORT     STATE SERVICE       VERSION
+21/tcp   open  ftp           vsftpd 3.0.3
+22/tcp   open  ssh           OpenSSH 7.9p1 Debian 10+deb10u2 (protocol 2.0)
+| ssh-hostkey: 
+|   2048 cd:55:a8:e4:0f:28:bc:b2:a6:7d:41:76:bb:9f:71:f4 (RSA)
+|   256 16:fa:29:e4:e0:8a:2e:7d:37:d2:6f:42:b2:dc:e9:22 (ECDSA)
+|_  256 bb:74:e8:97:fa:30:8d:da:f9:5c:99:f0:d9:24:8a:d5 (ED25519)
+80/tcp   open  http          nginx 1.14.2
+| http-auth: 
+| HTTP/1.1 401 Unauthorized\x0D
+|_  Basic realm=Restricted Content
+|_http-server-header: nginx/1.14.2
+|_http-title: 401 Authorization Required
+139/tcp  open  netbios-ssn   Samba smbd 3.X - 4.X (workgroup: WORKGROUP)
+445/tcp  open  netbios-ssn   Samba smbd 4.9.5-Debian (workgroup: WORKGROUP)
+7080/tcp open  ssl/empowerid LiteSpeed
+|_http-server-header: LiteSpeed
+|_http-title: Did not follow redirect to https://192.168.54.90:7080/
+| ssl-cert: Subject: commonName=seppuku/organizationName=LiteSpeedCommunity/stateOrProvinceName=NJ/countryName=US
+| Not valid before: 2020-05-13T06:51:35
+|_Not valid after:  2022-08-11T06:51:35
+|_ssl-date: 2021-08-09T16:43:43+00:00; 0s from scanner time.
+| tls-alpn: 
+|   h2
+|   spdy/3
+|   spdy/2
+|_  http/1.1
+7601/tcp open  http          Apache httpd 2.4.38 ((Debian))
+|_http-server-header: Apache/2.4.38 (Debian)
+|_http-title: Seppuku
+8088/tcp open  http          LiteSpeed httpd
+|_http-server-header: LiteSpeed
+|_http-title: Seppuku
+Service Info: Host: SEPPUKU; OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
+
+Host script results:
+|_clock-skew: mean: 59m59s, deviation: 2h00m00s, median: 0s
+|_nbstat: NetBIOS name: SEPPUKU, NetBIOS user: <unknown>, NetBIOS MAC: <unknown> (unknown)
+| smb-os-discovery: 
+|   OS: Windows 6.1 (Samba 4.9.5-Debian)
+|   Computer name: seppuku
+|   NetBIOS computer name: SEPPUKU\x00
+|   Domain name: \x00
+|   FQDN: seppuku
+|_  System time: 2021-08-09T12:43:40-04:00
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2021-08-09T16:43:40
+|_  start_date: N/A
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 15.79 seconds
+
+================================================================== 
+|    Users on 192.168.54.90 via RID cycling (RIDS: 500-550,1000-1050)    |
+ ======================================================================== 
+[I] Found new SID: S-1-22-1
+[I] Found new SID: S-1-5-21-1800040000-2589740123-1483388600
+[I] Found new SID: S-1-5-32
+[+] Enumerating users using SID S-1-5-21-1800040000-2589740123-1483388600 and logon username '', password ''
+S-1-5-21-1800040000-2589740123-1483388600-500 *unknown*\*unknown* (8)
+S-1-5-21-1800040000-2589740123-1483388600-501 SEPPUKU\nobody (Local User)
+S-1-5-21-1800040000-2589740123-1483388600-513 SEPPUKU\None (Domain Group)
+[+] Enumerating users using SID S-1-22-1 and logon username '', password ''
+S-1-22-1-1000 Unix User\seppuku (Local User)
+S-1-22-1-1001 Unix User\samurai (Local User)
+S-1-22-1-1002 Unix User\tanto (Local User)
+[+] Enumerating users using SID S-1-5-32 and logon username '', password ''
+S-1-5-32-520 *unknown*\*unknown* (8)
+S-1-5-32-544 BUILTIN\Administrators (Local Group)
+S-1-5-32-545 BUILTIN\Users (Local Group)
+S-1-5-32-546 BUILTIN\Guests (Local Group)
+S-1-5-32-547 BUILTIN\Power Users (Local Group)
+S-1-5-32-548 BUILTIN\Account Operators (Local Group)
+S-1-5-32-549 BUILTIN\Server Operators (Local Group)
+S-1-5-32-550 BUILTIN\Print Operators (Local Group)
+
+S-1-5-32-544 BUILTIN\Administrators (Local Group)
+S-1-5-32-545 BUILTIN\Users (Local Group)
+S-1-5-32-546 BUILTIN\Guests (Local Group)
+S-1-5-32-547 BUILTIN\Power Users (Local Group)
+S-1-5-32-548 BUILTIN\Account Operators (Local Group)
+S-1-5-32-549 BUILTIN\Server Operators (Local Group)
+S-1-5-32-550 BUILTIN\Print Operators (Local Group)
+
+ ============================================== 
+|    Getting printer info for 192.168.54.90    |
+ ============================================== 
+No printers returned.
+
+
+enum4linux complete on Mon Aug  9 12:50:18 2021
+
+
+

